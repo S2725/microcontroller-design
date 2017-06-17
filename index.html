@@ -1,0 +1,392 @@
+
+<html><head>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://i.imgur.com/Kq6qjlB.png" alt="" width="132" height="143">
+<link rel="stylesheet" href="https://cn.iot.seeed.cc/common_static/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cn.iot.seeed.cc/common_static/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+<script src="https://cn.iot.seeed.cc/common_static/js/jquery-1.11.3.min.js"></script>
+</head>
+<body style="padding: 10px;">
+
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title" style="word-wrap: break-word;" id="url_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad">https://us.wio.seeed.io/v1/node/GroveAirqualityA0/quality?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+</div>
+<div class="panel-body">
+
+<p>Get the analog reading of air quality. The air quality sensor is is designed for comprehensive
+monitor over indoor air condition. It's responsive to a wide scope of harmful gases, as carbon
+monixide, alcohol, acetone, thinner, formaldehyde and so on. Due to the measuring mechanism, this
+sensor can not output specific data to describe target gases' concentrations quantitatively. But
+it's still competent enough to be used in applications that require only qualitative results,
+like auto refresher sprayers and auto air cycling systems. If exposed for a long time to pollution,
+it will be damaged.</p>
+
+</div>
+<table class="table">
+<tbody><tr>
+<td><h5>Request method: GET</h5></td>
+</tr>
+
+<tr>
+
+</tr>
+</tbody></table>
+<div class="panel-body">
+<h5>Test Request:</h5>
+<div class="form-inline" id="form_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad">
+
+<button type="button" id="button_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad" class="btn btn-default btn-sm" data-loading-text="Loading...">GET</button>
+</div>
+</div>
+<div class="panel-body" id="result_panel_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad">
+<div class="well well-sm">
+<p id="curl_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad" style="word-wrap: break-word;"><strong>Curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveAirqualityA0/quality?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+<p id="result_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad" style="word-wrap: break-word;"><strong>Response:</strong> <br>{"quality": 95}</p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title" style="word-wrap: break-word;" id="url_335f1531-c025-42e1-b114-e2f62cf3d0eb">https://us.wio.seeed.io/v1/node/GroveDigitalLightI2C0/lux?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+</div>
+<div class="panel-body">
+
+<p>Reading the lucency of visable light</p>
+
+</div>
+<table class="table">
+<tbody><tr>
+<td><h5>Request method: GET</h5></td>
+</tr>
+
+<tr>
+<td>
+
+
+</td>
+</tr>
+</tbody></table>
+<div class="panel-body">
+<h5>Test Request:</h5>
+<div class="form-inline" id="form_335f1531-c025-42e1-b114-e2f62cf3d0eb">
+
+<button type="button" id="button_335f1531-c025-42e1-b114-e2f62cf3d0eb" class="btn btn-default btn-sm" data-loading-text="Loading...">GET</button>
+</div>
+</div>
+<div class="panel-body" id="result_panel_335f1531-c025-42e1-b114-e2f62cf3d0eb" style="display: none;">
+<div class="well well-sm">
+<p id="curl_335f1531-c025-42e1-b114-e2f62cf3d0eb" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveDigitalLightI2C0/lux?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+<p id="result_335f1531-c025-42e1-b114-e2f62cf3d0eb" style="word-wrap: break-word;"></p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title" style="word-wrap: break-word;" id="url_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5">https://us.wio.seeed.io/v1/node/GroveTempHumD0/humidity?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+</div>
+<div class="panel-body">
+
+<p>The basic temperature and humidity sensor will update the reading every 2 seconds.</p>
+
+</div>
+<table class="table">
+<tbody><tr>
+<td><h5>Request method: GET</h5></td>
+</tr>
+
+<tr>
+
+</tr>
+</tbody></table>
+<div class="panel-body">
+<h5>Test Request:</h5>
+<div class="form-inline" id="form_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5">
+
+<button type="button" id="button_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" class="btn btn-default btn-sm" data-loading-text="Loading...">GET</button>
+</div>
+</div>
+<div class="panel-body" id="result_panel_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" style="display: none;">
+<div class="well well-sm">
+<p id="curl_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveTempHumD0/humidity?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+<p id="result_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" style="word-wrap: break-word;"></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title" style="word-wrap: break-word;" id="url_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8">https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature_f?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+</div>
+<div class="panel-body">
+
+<p>The basic temperature and humidity sensor will update the reading every 2 seconds.</p>
+
+</div>
+<table class="table">
+<tbody><tr>
+<td><h5>Request method: GET</h5></td>
+</tr>
+
+
+</tbody></table>
+<div class="panel-body">
+<h5>Test Request:</h5>
+<div class="form-inline" id="form_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8">
+
+<button type="button" id="button_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" class="btn btn-default btn-sm" data-loading-text="Loading...">GET</button>
+</div>
+</div>
+<div class="panel-body" id="result_panel_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" style="display: none;">
+<div class="well well-sm">
+<p id="curl_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature_f?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+<p id="result_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" style="word-wrap: break-word;"></p>
+</div>
+</div>
+</div>
+
+<!-- sleep apis -->
+
+<!--div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title" style="word-wrap: break-word;" id="url_all_sleep">https://us.wio.seeed.io/v1/node/pm/sleep_all/[sleep_time_sec]?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+</div>
+<div class="panel-body">
+<p>Put the node into deep sleep mode, also this API will turn off the power of all connected Grove modules.<br>
+This will reduce the current consumption of the whole system to ~20mA if it's powered by micro USB (due to the usb to serial chip).
+And the current will drop to ~1mA if the system is powered by battery.<br><br>
+<strong>Note: Please make sure that none of the connected Grove modules needs a heat-up process.</strong></p>
+</div>
+<table class="table">
+<tr>
+<td><h5>Request method: POST</h5></td>
+</tr>
+<tr>
+<td>
+<h5>Arguments in URL:</h5>
+<ul>
+<li>[sleep_time_sec]: uint32_t value, the number of seconds to sleep</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h5>Returns:</h5>
+<ul>
+<li>{"status": 200, "msg": "OK"}</li>
+<li>{"status": 205, "msg": "failure reason here"}</li>
+</ul>
+</td>
+</tr>
+</table>
+<div class="panel-body">
+<h5>Test Request:</h5>
+<div class="form-inline" id="form_all_sleep">
+<div class="form-group">
+<label class="sr-only" for="all_sleep_time">sleep_time_sec</label>
+<input type="text" class="form-control" id="all_sleep_time" placeholder="[sleep_time_sec]">
+</div>
+<button type="button" id="button_all_sleep" class="btn btn-default btn-sm" data-loading-text="Loading...">POST</button>
+</div>
+</div>
+<div class="panel-body" id="result_panel_all_sleep" style="display: none;">
+<div class="well well-sm">
+<p id="curl_all_sleep" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -X POST -k https://us.wio.seeed.io/v1/node/pm/sleep_all/[sleep_time_sec]?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+<p id="result_all_sleep" style="word-wrap: break-word;"></p>
+</div>
+</div>
+</div-->
+<!--end sleep apis -->
+<!-- grove power switch apis -->
+<!--div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title" style="word-wrap: break-word;" id="url_switch_grove">https://us.wio.seeed.io/v1/node/pm/power_grove/[onoff]?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+</div>
+<div class="panel-body">
+<p>Swtich the power supply for Grove modules connected.</p>
+</div>
+<table class="table">
+<tr>
+<td><h5>Request method: POST</h5></td>
+</tr>
+<tr>
+<td>
+<h5>Arguments in URL:</h5>
+<ul>
+<li>[onoff]: uint8_t value, 0: power off the groves, 1: power on</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h5>Returns:</h5>
+<ul>
+<li>{"status": 200, "msg": "OK"}</li>
+<li>{"status": 205, "msg": "failure reason here"}</li>
+</ul>
+</td>
+</tr>
+</table>
+<div class="panel-body">
+<h5>Test Request:</h5>
+<div class="form-inline" id="form_switch_grove">
+<div class="form-group">
+<label class="sr-only" for="switch_grove_onoff">onoff</label>
+<input type="text" class="form-control" id="switch_grove_onoff" placeholder="[onoff]">
+</div>
+<button type="button" id="button_switch_grove" class="btn btn-default btn-sm" data-loading-text="Loading...">POST</button>
+</div>
+</div>
+<div class="panel-body" id="result_panel_switch_grove" style="display: none;">
+<div class="well well-sm">
+<p id="curl_switch_grove" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -X POST -k https://us.wio.seeed.io/v1/node/pm/power_grove/[onoff]?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
+<p id="result_switch_grove" style="word-wrap: break-word;"></p>
+</div>
+</div>
+</div>
+<!-- end grove power switch apis -->
+
+
+<!--Latest compiled and minified JavaScript-->
+<script src="https://cn.iot.seeed.cc/common_static/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+$('div.form-inline > button').each(function(){
+$(this).on('click', function () {
+var button_text = $(this).text();
+if (button_text == "Loading...")
+{
+return;
+}
+$(this).text("Loading...");
+var btn_id = $(this).attr("id");
+var uuid = btn_id.replace("button_","");
+console.log(uuid);
+var url = $("#url_"+uuid).text();
+console.log(url);
+var empty = false;
+$("#form_"+uuid+" input").each(function(){
+$(this).parent().removeClass("has-error"); $(this).addClass("has-error");
+var value = $(this).val().trim();
+if (value.length < 1)
+{
+//console.log($(this).val().length);
+$(this).parent().addClass("has-error");
+empty = true;
+}else
+{
+url = url.replace($(this).attr("placeholder"), value);
+}
+});
+console.log(empty);
+if (!empty)
+{
+if (url.indexOf("/v1") < 0)
+{
+url = url.replace("v1", "/v1");
+}
+if (url.lastIndexOf("//") > 6)
+{
+url = url.substr(0, 8) + url.substr(8, url.length - 8).replace("//", "/");
+}
+var curl_text = "<strong>Curl example:</strong> <br>curl -k ";
+if (button_text == "POST")
+{
+curl_text += "-X POST ";
+}
+curl_text += url;
+console.log(curl_text);
+console.log(url);
+$.ajax({
+url: url,
+type: button_text,
+timeout: 10000,
+dataType: "text",
+context: $(this),
+success: function(result,status,xhr)
+{
+var result_text = "<strong>Response:</strong> <br>"+result.toString();
+$("#curl_"+uuid).html(curl_text);
+$("#result_" + uuid).html(result_text);
+$("#result_panel_" + uuid).fadeIn("slow");
+},
+error: function(xhr,status,error)
+{
+console.log(error);
+console.log(status);
+var result_text = "<strong>Response:</strong> <br>"+xhr.responseText;
+$("#curl_"+uuid).html(curl_text);
+$("#result_" + uuid).html(result_text);
+$("#result_panel_" + uuid).fadeIn("slow");
+},
+complete: function(xhr, status)
+{
+console.log("complete: "+status);
+$(this).text(button_text);
+}
+});
+} else
+{
+$(this).text(button_text);
+}
+});
+});
+$("#button_ws").on("click", function() {
+if ($(this).val() == "CONNECT")
+{
+var wsUri = "wss://us.wio.seeed.io/v1/node/event";
+//$(this).val("Loading...");
+websocket = new WebSocket(wsUri);
+websocket.onopen = function(evt) { onOpen(evt) };
+websocket.onclose = function(evt) { onClose(evt) };
+websocket.onmessage = function(evt) { onMessage(evt) };
+websocket.onerror = function(evt) { onError(evt) };
+}else if($(this).val() == "DISCONNECT")
+{
+if (websocket)
+{
+websocket.close();
+}
+}
+});
+});
+function onOpen(evt)
+{
+$("#button_ws").val("DISCONNECT");
+$("#result_ws").fadeIn();
+writeToScreen("CONNECTED");
+doSend("d0fc435780e125d5e5d6ef078ab61fd2");
+}
+function onClose(evt)
+{
+writeToScreen("DISCONNECTED");
+$("#button_ws").val("CONNECT");
+}
+function onMessage(evt)
+{
+writeToScreen('<span style="color: blue;">RECV: ' + evt.data + '</span>');
+//websocket.close();
+}
+function onError(evt)
+{
+writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data);
+}
+function doSend(message)
+{
+writeToScreen("SENT: " + message);
+websocket.send(message);
+}
+var msg_index = 0;
+function writeToScreen(message)
+{
+$("<p style='word-wrap: break-word; '></p>").html("["+msg_index+"] "+message).prependTo("#result_ws");
+msg_index++;
+}
+</script>
+
+
+</body></html>
