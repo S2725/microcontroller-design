@@ -14,13 +14,7 @@
 </div>
 <div class="panel-body">
 
-<p>Get the analog reading of air quality. The air quality sensor is is designed for comprehensive
-monitor over indoor air condition. It's responsive to a wide scope of harmful gases, as carbon
-monixide, alcohol, acetone, thinner, formaldehyde and so on. Due to the measuring mechanism, this
-sensor can not output specific data to describe target gases' concentrations quantitatively. But
-it's still competent enough to be used in applications that require only qualitative results,
-like auto refresher sprayers and auto air cycling systems. If exposed for a long time to pollution,
-it will be damaged.</p>
+<p>The air quality sensor is is designed for comprehensive monitor over indoor air condition. It's responsive to a wide scope of harmful gases, as carbon monixide, alcohol, acetone, thinner, formaldehyde and so on.</p>
 
 </div>
 <table class="table">
@@ -41,7 +35,6 @@ it will be damaged.</p>
 </div>
 <div class="panel-body" id="result_panel_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad">
 <div class="well well-sm">
-<p id="curl_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad" style="word-wrap: break-word;"><strong>Curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveAirqualityA0/quality?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
 <p id="result_e83a4c69-96d4-4a64-9d3b-7fe6fbada0ad" style="word-wrap: break-word;"><strong>Response:</strong> <br>{"quality": 95}</p>
 </div>
 </div>
@@ -53,7 +46,7 @@ it will be damaged.</p>
 </div>
 <div class="panel-body">
 
-<p>Reading the lucency of visable light</p>
+<p>Reads the lucency of visible light</p>
 
 </div>
 <table class="table">
@@ -77,7 +70,6 @@ it will be damaged.</p>
 </div>
 <div class="panel-body" id="result_panel_335f1531-c025-42e1-b114-e2f62cf3d0eb" style="display: none;">
 <div class="well well-sm">
-<p id="curl_335f1531-c025-42e1-b114-e2f62cf3d0eb" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveDigitalLightI2C0/lux?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
 <p id="result_335f1531-c025-42e1-b114-e2f62cf3d0eb" style="word-wrap: break-word;"></p>
 </div>
 </div>
@@ -89,7 +81,7 @@ it will be damaged.</p>
 </div>
 <div class="panel-body">
 
-<p>The basic temperature and humidity sensor will update the reading every 2 seconds.</p>
+<p>This humidity sensor outputs the humidity and updates every 2 seconds.</p>
 
 </div>
 <table class="table">
@@ -110,7 +102,6 @@ it will be damaged.</p>
 </div>
 <div class="panel-body" id="result_panel_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" style="display: none;">
 <div class="well well-sm">
-<p id="curl_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveTempHumD0/humidity?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
 <p id="result_b619eac9-403b-4091-ab8e-a1d0fc2fc2d5" style="word-wrap: break-word;"></p>
 </div>
 </div>
@@ -124,7 +115,7 @@ it will be damaged.</p>
 </div>
 <div class="panel-body">
 
-<p>The basic temperature and humidity sensor will update the reading every 2 seconds.</p>
+<p>This temperature outputs the temperature in farenheit, it updates every 2 seconds.</p>
 
 </div>
 <table class="table">
@@ -143,7 +134,6 @@ it will be damaged.</p>
 </div>
 <div class="panel-body" id="result_panel_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" style="display: none;">
 <div class="well well-sm">
-<p id="curl_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" style="word-wrap: break-word;"><strong>curl example:</strong> <br>curl -k https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature_f?access_token=d0fc435780e125d5e5d6ef078ab61fd2</p>
 <p id="result_cad885ad-4f3a-4cb0-a106-764d3a5bfbd8" style="word-wrap: break-word;"></p>
 </div>
 </div>
@@ -293,7 +283,7 @@ if (url.lastIndexOf("//") > 6)
 {
 url = url.substr(0, 8) + url.substr(8, url.length - 8).replace("//", "/");
 }
-var curl_text = "<strong>Curl example:</strong> <br>curl -k ";
+
 if (button_text == "POST")
 {
 curl_text += "-X POST ";
